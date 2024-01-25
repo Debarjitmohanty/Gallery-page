@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Image Gallery - Bootstrap 5</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+  
+
+  <section class="gallery min-vh-100">
+     <div class="container-lg">
+        <div class="row gy-4 row-cols-1 row-cols-sm-2 row-cols-md-3">
+           <div class="col">
+              <img src="img/1.jpg" class="gallery-item" alt="gallery">
+           </div>
+           <div class="col">
+              <img src="img/2.jpg" class="gallery-item" alt="gallery">
+           </div>
+           <div class="col">
+              <img src="img/3.jpg" class="gallery-item" alt="gallery">
+           </div>
+           <div class="col">
+              <img src="img/4.jpg" class="gallery-item" alt="gallery">
+           </div>
+           <div class="col">
+              <img src="img/5.jpg" class="gallery-item" alt="gallery">
+           </div>
+           <div class="col">
+              <img src="img/6.jpg" class="gallery-item" alt="gallery">
+           </div>
+        </div>
+     </div>
+  </section>
+
+<!-- Modal -->
+<div class="modal fade" id="gallery-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <!-- <h5 class="modal-title" id="exampleModalLabel">Modal title</h5> -->
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+         <img src="img/1.jpg" class="modal-img" alt="modal img">
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
